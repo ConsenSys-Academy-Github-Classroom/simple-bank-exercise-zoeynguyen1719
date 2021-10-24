@@ -1,4 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5728307&assignment_repo_type=AssignmentRepo)
 # Simple Bank Exercise
 
 SimpleBank is a [Truffle](https://www.trufflesuite.com/) project that contains
@@ -7,6 +6,13 @@ a starter contract,
 and [Truffle JavaScript test
 files](https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript).
 In this exercise you are going to implement the SimpleBank.sol contract.
+
+## Setting The Stage
+
+<img  align="right" src="https://live.staticflickr.com/6179/6201850469_51ce8e1f8a.jpg" width="170">
+
+We want to create a depository institution on the Ethereum blockchain, and we need your help! <br/>
+The bank should be able to enroll new users and allow them to make deposits / widthdrawals! <br/><br/>
 
 ## Files
 
@@ -31,18 +37,17 @@ functionality. The test are there to determine correct contract behavior as
 well as guide you through the implementation. 
 
 The general workflow is to use Test Drive Development's red green process:
-  1. Enable a test in `simpleBank.test.js`. This means changing `it.skip`, to
-     `it` in the test declaration.
-  2. Run `truffle test` from a terminal.
-  3. Use the failed test output along with the hints in
+  1. Run `truffle test` from a terminal.
+  2. Use the failed test output along with the hints in
      `contracts/SimpleBank.sol` to make the test pass.
 
-<details><summary>Video: Run a test example</summary>
+<!-- <details><summary>Video: Run a test example</summary>
 
 [![asciicast](https://asciinema.org/a/u3oXwF8qKruSN81sm8MGsmTf0.png)](https://asciinema.org/a/u3oXwF8qKruSN81sm8MGsmTf0)
 
-</details>
+</details> -->
 
+Note: Truffle will default to use a Solidity 0.5.x compiler with this contract as-is. To use the latest 0.8.x compiler, please comment out lines 9-14 in [truffle-config.js.](truffle-config.js)
 
 ### Note on testing
 
